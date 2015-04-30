@@ -32,9 +32,20 @@
 
 ## Примерна програма
 
+**(Втора итерация върху програмата)**
+
 **Тази програма е първоначален draft и подлежи на промяна**
 
-* Въвеждане в алгоритмите - сложности, сортирания, търсения.
+
+
+* Въвеждане в алгоритмите - сложности, амортизирана сложност, сортирания.
+* Heapsort / Heap като структура от данни
+* Структури от данни - Binary Search Trees / Trie / Heaps
+* Алгоритми в/у графи - BFS / DFS / Dijkstra / търсенията / Spanning Trees / Matching algorithms
+* Алгоритми за [String-search](http://en.wikipedia.org/wiki/String_searching_algorithm) - Knuth–Morris–Pratt, Hash, Aho-Corasick?
+* Probability algorithms - http://en.wikipedia.org/wiki/Monte_Carlo_algorithm
+* Dynamic Programming - някакви неща с ДНК.
+
 * Припомняне на базови структури от данни, нужни за следващите теми - стек, опашка, дървета.
 * Графи, алгоритми в/у графи - тук може да задълбаем доста.
 * Алгоритми в/у низове, текст и търсене.
