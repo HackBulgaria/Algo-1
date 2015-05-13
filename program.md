@@ -36,18 +36,56 @@
 
 **Тази програма е първоначален draft и подлежи на промяна**
 
-
-
-* Въвеждане в алгоритмите - сложности, амортизирана сложност, сортирания.
-* Heapsort / Heap като структура от данни
-* Структури от данни - Binary Search Trees / Trie / Heaps
-* Алгоритми в/у графи - BFS / DFS / Dijkstra / търсенията / Spanning Trees / Matching algorithms
-* Алгоритми за [String-search](http://en.wikipedia.org/wiki/String_searching_algorithm) - Knuth–Morris–Pratt, Hash, Aho-Corasick?
-* Probability algorithms - http://en.wikipedia.org/wiki/Monte_Carlo_algorithm
-* Dynamic Programming - някакви неща с ДНК.
-
-* Припомняне на базови структури от данни, нужни за следващите теми - стек, опашка, дървета.
-* Графи, алгоритми в/у графи - тук може да задълбаем доста.
-* Алгоритми в/у низове, текст и търсене.
-* Ако остане време - може да вкараме и примерни алгоритми за dynamic programming
-
+* Анализ (1 лекция)
+  * структури от данни
+  * алгоритми 
+  * сложност
+    * стъпки на алгоритъма
+    * асимптотична сложност
+    * амортизирана сложност
+* Линейни структури от данни (1 лекция)
+  * Array
+  * Linked list
+  * Array list
+  * Queue/Stack
+* Сортиране на редица (2 лекции)
+  * Selection sort 
+  * Insertion sort
+  * Merge sort
+  * Quick sort
+  * Counting sort
+  * Radix sort
+* Търсене на елемент в редица (1 лекция)
+  * Linear search
+  * Binary search
+  * Interpolation search
+* Пирамида (1 лекция)
+  * Heap
+  * Heap sort
+  * Priority queue
+  * k-th element in array
+* Дървовидни структури от данни (1 лекция)
+  * Binary tree
+  * Binary search tree
+* Графи (3 лекции)
+  * adjacency list
+  * adjacency matrix
+  * BFS / DFS
+  * Spanning trees
+  	* Minimum spanning trees:
+  	  * Prim
+  	  * Kruskal
+  * Shortest path
+    * Dijkstra
+    * Floyd–Warshall
+  * sparse graphs - Tarjan matrix
+* Hashing (1 лекция)
+  * Hash function 
+  * Hash table
+  * Bloom filter
+* String algorithms (1 лекция)
+  * Knuth-Morris-Pratt
+* NP-relaxing (4 лекции)
+  * Randomized algorithms - Monte Carlo and Las Vegas
+  * Dynamic programming
+  * Genetic algorithms
