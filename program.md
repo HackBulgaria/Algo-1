@@ -36,13 +36,14 @@
 
 **Тази програма е първоначален draft и подлежи на промяна**
 
-* Анализ (1 лекция)
+* Въведение в курса и анализ на алгоритми (1 лекция)
   * структури от данни
-  * алгоритми 
-  * сложност
+  * алгоритми
+  * анализ на алгоритми
     * стъпки на алгоритъма
     * асимптотична сложност
     * амортизирана сложност
+    * best/worst case анализ
 * Линейни структури от данни (1 лекция)
   * Array
   * Linked list
@@ -52,13 +53,18 @@
   * Selection sort
   * Insertion sort
   * Merge sort
+  * Bubble sort
+  * Shell sort
   * Quick sort
+  * Timsort
   * Counting sort
   * Radix sort
 * Търсене на елемент в редица (1 лекция)
   * Linear search
   * Binary search
   * Interpolation search
+  * k-th element in array
+  * Median of medians
 * Пирамида (1 лекция)
   * Heap
   * Heap sort
