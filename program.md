@@ -49,7 +49,7 @@
   * Array list
   * Queue/Stack
 * Сортиране на редица (2 лекции)
-  * Selection sort 
+  * Selection sort
   * Insertion sort
   * Merge sort
   * Quick sort
@@ -78,12 +78,15 @@
   * Shortest path
     * Dijkstra
     * Floyd–Warshall
+  * strongly connected components - Kosaraju–Sharir
   * sparse graphs - Tarjan matrix
 * Hashing (1 лекция)
-  * Hash function 
+  * Hash function
   * Hash table
   * Bloom filter
 * String algorithms (1 лекция)
+  * run-length encoding
+  * Burrows-Wheeler transform
   * Knuth-Morris-Pratt
 * NP-relaxing (4 лекции)
   * Randomized algorithms - Monte Carlo and Las Vegas
