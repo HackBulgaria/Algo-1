@@ -86,6 +86,7 @@
     * Floyd–Warshall
   * strongly connected components - Kosaraju–Sharir
   * sparse graphs - Tarjan matrix
+  * топологично сортиране
 * Hashing (1 лекция)
   * Hash function
   * Hash table
@@ -94,7 +95,6 @@
   * run-length encoding
   * Burrows-Wheeler transform
   * Knuth-Morris-Pratt
-* NP-relaxing (4 лекции)
+* Hard problems (4 лекции)
   * Randomized algorithms - Monte Carlo and Las Vegas
   * Dynamic programming
-  * Genetic algorithms
