@@ -83,7 +83,7 @@ Any bracket expression can be evaluated to a value in the following way:
 
 Input:
 
-`[123(145)67(37)912]`
+`[123(145)38(37)812]`
 
 Output:
 
