@@ -75,5 +75,5 @@ Here are more examples of messages that we encrypted:
 Your task is to write a program that reverses this process and results in the original message and follow the instructions that it carries :)
 
 * On the standard input, you are going to receive a single line of string - the encrypted message.
-* On the stanrad output, output the original message.
+* On the standard output, output the original message.
 
