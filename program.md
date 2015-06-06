@@ -44,35 +44,33 @@
     * асимптотична сложност
     * амортизирана сложност
     * best/worst case анализ
-* Линейни структури от данни (1 лекция)
   * Array
   * Linked list
   * Array list
   * Queue/Stack
-* Сортиране на редица (2 лекции)
+* Сортиране на редица (1 лекции)
   * Selection sort
   * Insertion sort
   * Merge sort
   * Bubble sort
   * Shell sort
   * Quick sort
-  * Timsort
   * Counting sort
-  * Radix sort
 * Търсене на елемент в редица (1 лекция)
   * Linear search
   * Binary search
-  * Interpolation search
-  * k-th element in array
-  * Median of medians
+    * integers
+    * floats
 * Пирамида (1 лекция)
   * Heap
   * Heap sort
   * Priority queue
-  * k-th element in array
+  * k-th biggest element
 * Дървовидни структури от данни (1 лекция)
   * Binary tree
   * Binary search tree
+  * Trie
+  * Indexed tree
 * Графи (3 лекции)
   * adjacency list
   * adjacency matrix
@@ -84,17 +82,15 @@
   * Shortest path
     * Dijkstra
     * Floyd–Warshall
-  * strongly connected components - Kosaraju–Sharir
-  * sparse graphs - Tarjan matrix
   * топологично сортиране
 * Hashing (1 лекция)
   * Hash function
   * Hash table
   * Bloom filter
 * String algorithms (1 лекция)
+  * rolling hash
   * run-length encoding
   * Burrows-Wheeler transform
   * Knuth-Morris-Pratt
-* Hard problems (4 лекции)
-  * Randomized algorithms - Monte Carlo and Las Vegas
-  * Dynamic programming
+* Randomized algorithms - Monte Carlo and Las Vegas (3 лекции)
+* Dynamic programming (3 лекции)
