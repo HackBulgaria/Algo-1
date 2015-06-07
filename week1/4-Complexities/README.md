@@ -6,8 +6,7 @@ Write down the asymptotic complexities of the following functions:
 
 ```
 is_prime(number) {
-  i = 2
-  while (i < number) {
+  for (i = 2; i < number; i++) {
     if (number % i == 0) {
       return false
     }
@@ -40,46 +39,36 @@ is_palindrome(string) {
 
 Complexity: ...
 
-## Finding maximum element in array
+## Summing elements of a matrix
 
 ```
-something(numbers) {
-  n = length(numbers)
-
-  i = 0
-  while (i < n) {
-    j = i + 1
-    has_bigger = false
-    while (j < n) {
-      if (numbers[i] < numbers[j]) {
-        has_bigger = true
-        break
-      }
-      j = j + 1
-    }
-    if (has_bigger == false) {
-      return numbers[i]
-    }
-    i = i + 1
+for (i = 0; i < n; i++) {
+  for (j = 0; j < m; j++) {
+    sum += numbers[i][j]
   }
 }
 ```
 
 Complexity: ...
 
-## Greatest common divisor of two numbers
+## Counting 1
 
 ```
-gcd(a, b) {
-  while (a != b) {
-    if (a > b) {
-      a = a - b
-    } else {
-      b = b - a
-    }
+for (i = 0; i < n; i++) {
+  for (j = i; j < n; j++) {
+    count++
   }
-  return a
 }
 ```
 
 Complexity: ...
+
+## Counting 2
+
+```
+for (i = 0; i < n; i++) {
+  for (j = 0; j < n; j*=2) {
+    count++
+  }
+}
+```
