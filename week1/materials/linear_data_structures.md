@@ -7,11 +7,23 @@ them in order to speed up our algorithms.
 
 ## Array
 
-[Array](http://en.wikipedia.org/wiki/Array_data_structure)
+[Arrays](http://en.wikipedia.org/wiki/Array_data_structure) are essential
+to many algorithms. They are very close to the memory representation in a
+machine and provide efficiant (O(1) time) operations for working with
+elements at a random position.
+
+Arrays are key ingrediants in other more complex data structures.
 
 ## Vector
 
-[Dynamic array](http://en.wikipedia.org/wiki/Dynamic_array)
+[Vectors](http://en.wikipedia.org/wiki/Dynamic_array) are modification of
+arrays that allow unlimited number of elements to be added to the collection
+while keeping the performance of random access operations similar to array's
+(approximately O(1) time).
+
+* C++: [std::vector](http://www.cplusplus.com/reference/vector/vector/)
+* Java: [java.util.ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)
+* Python: [list](https://docs.python.org/3.4/tutorial/datastructures.html#more-on-lists)
 
 ## List
 
@@ -31,6 +43,10 @@ elements from the end of the list is fast (runs in O(1) time).
 
 [Doubly linked list](http://en.wikipedia.org/wiki/Doubly_linked_list) - List with
 links in both directions.
+
+* C++: [std::list](http://www.cplusplus.com/reference/list/list/)
+* Java: [java.util.LinkedList](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
+* Python: [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque)
 
 ## Queue
 
@@ -63,6 +79,10 @@ Queue {
 
 It could be implemented with both Vector and List.
 
+* C++: [std::queue](http://www.cplusplus.com/reference/queue/queue/)
+* Java: [java.util.Queue](http://docs.oracle.com/javase/7/docs/api/java/util/Queue.html)
+* Python: [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque)
+
 ## Stack
 
 [Stack](http://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29) is an
@@ -93,3 +113,7 @@ Stack {
 ```
 
 It could be implemented with both Vector and List.
+
+* C++: [std::stack](http://www.cplusplus.com/reference/stack/stack/)
+* Java: [java.util.Stack](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+* Python: [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque)
