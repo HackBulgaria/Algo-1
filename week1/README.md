@@ -1,6 +1,6 @@
 # Week 1
 
-This week we'll focus on two fundamental topics.
+This week we'll focus on some fundamental topics.
 [Complexity alanysis](materials/complexity_analysis.md) will help us compare
 two algorithms with respect to their performance as the input grows.
 [Linear data structures](materials/linear_data_structures.md) are the base
