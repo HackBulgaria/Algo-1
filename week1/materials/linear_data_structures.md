@@ -99,11 +99,11 @@ Stack {
   push(value)
 
   // Returns value from the end of the Stack and removes it.
-  // Complexity: O(n)
+  // Complexity: O(1)
   pop()
 
   // Returns value from the end of the Stack without removing it.
-  // Complexity: O(n)
+  // Complexity: O(1)
   peek()
 
   // Returns the number of elements in the Stack.

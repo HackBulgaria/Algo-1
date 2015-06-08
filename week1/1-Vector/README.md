@@ -12,7 +12,7 @@ The required interface is:
 Vector {
 
   // Adds value at a specific index in the Vector.
-  // Complexity: O(1)
+  // Complexity: O(n)
   insert(index, value)
 
   // Adds value to the end of the Vector.
