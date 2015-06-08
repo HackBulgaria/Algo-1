@@ -6,12 +6,7 @@ The first edition of the algo course in Hack Bulgaria
 
 The course is happening thanks to:
 
-[![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)](https://youtu.be/Mkslqj8ix44)
-
-[![SAP Labs Bulgaria](https://hackbulgaria.com/media/partner_logoes/SAP-Logo_1.png)](https://youtu.be/JXsM1oFkAmg)
-
-
-[![Chaos Group](https://hackbulgaria.com/media/partner_logoes/a.png)](http://www.chaosgroup.com/en/2/index.html)
+[![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)](https://youtu.be/Mkslqj8ix44) | [![SAP Labs Bulgaria](patrtners/sap_labs_bulgaria.png)](https://youtu.be/JXsM1oFkAmg) | [![Chaos Group](partners/chaos_group.png)](http://www.chaosgroup.com/en/2/index.html)
 
 ## Course Program
 
