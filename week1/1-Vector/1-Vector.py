@@ -2,6 +2,7 @@ class Vector:
 	def __init__(self, capacity):
 		self.elements = [None] * capacity
 		self.capacity = capacity
+		self.size = 0
 
 
 	def capacity(self):
@@ -9,63 +10,46 @@ class Vector:
 
 
 	def size(self):
-		i = 0
-		while (i < self.capacity and self.elements[i]):
-			i += 1
-		return i
+		return self.size
 
 
 	def insert(self, index, value):
 		#Adds value at a specific index in the Vector.
-		if (index == self.size()):
+		if (index == self.size):
 			self.add(value)
 		else:
-			if (self.size() == self.capacity):
+			
+			if (self.size == self.capacity):
 				self.expand()
-			r = range(self.size() - 1, index - 1, -1)
+			r = range(self.size - 1, index - 1, -1)
 			for i in r:
 				self.elements[i + 1] = self.elements[i]
 			self.elements[index] = value
+			self.size += 1
 
 
 	def expand(self):
-		new_vector = Vector(self.capacity * 2)
 		i = 0
+		elements = [None] * (self.capacity * 2)
 		for element in self.elements:
-			new_vector.elements[i] = element
+			elements[i] = element
 			i += 1
-		self.elements = new_vector.elements
-		self.capacity = new_vector.capacity
+		self.elements = elements
+		self.capacity = self.capacity * 2
 
 
 	def add(self, value):
 		#Adds value at the end of the vector.
 		if (self.elements[self.capacity - 1]):
 			self.expand()
-		self.elements[self.size()] = value
+		self.elements[self.size] = value
+		self.size += 1
 
 
 	def get(self, index):
 		#Returns value at a specific index in the Vector
-		if (index < self.capacity and self.elements[index]):
+		if (index < self.size):
 			return self.elements[index]
 		else:
 			raise IndexError("Index out of range")
-
-
-v = Vector(3)
-v.add(1)
-v.add(2)
-v.add(3)
-v.add(4)
-v.insert(0, 5)
-v.insert(0, 16)
-v.insert(1, 23)
-
-print (v.size())
-print (v.capacity)
-print (v.get(6))
-print (v.elements)
-
-
 
