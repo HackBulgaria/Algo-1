@@ -23,6 +23,14 @@ Vector {
   // Complexity: O(1)
   get(index)
 
+  // Removes element at the specific index
+  // Complexity: O(n)
+  remove(index)
+
+  // Removes element at the last index
+  // Complexity: O(1)
+  pop()
+
   // Returns the number of elements in the Vector.
   // Complexity: O(1)
   size()
