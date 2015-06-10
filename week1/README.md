@@ -21,3 +21,5 @@ situations.
 1. [Vector](1-Vector/README.md) - Implement the `Vector` data structure.
 1. [Queue](2-Queue/README.md) - Implement the `Queue` data structure using `List`.
 1. [Stack](3-Stack/README.md) - Implement the `Stack` data structure using `Queue`.
+1. [Stack](4-Complexities/README.md) - Find the complexities of several code fragments.
+1. [Sorting](5-Sorting/README.md) - Implement some of the fundamental sorting algorithms.
