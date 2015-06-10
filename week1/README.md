@@ -1,5 +1,9 @@
 # Week 1
 
+> In algorithms, as in life, persistence usually pays off.
+>
+> Steven S. Skiena, The Algorithm Design Manual
+
 This week we'll focus on some fundamental topics.
 [Complexity analysis](materials/complexity_analysis.md) will help us compare
 two algorithms with respect to their performance as the input grows.

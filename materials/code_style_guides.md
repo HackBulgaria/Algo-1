@@ -2,7 +2,8 @@
 
 > Programs must be written for people to read, and only incidentally for
 machines to execute.
-> - Hal Abelson
+>
+> Hal Abelson
 
 It is very important to write code following guidelines. Especially in a
 group environment such as the Algorithms course. Many people will read at
