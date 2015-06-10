@@ -17,8 +17,6 @@ is a description of the steps of the algorithm.
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
-Complexity: O(n^2)
-
 ## Insertion sort
 
 [Insertion sort](http://en.wikipedia.org/wiki/Insertion_sort) builds the
@@ -30,8 +28,6 @@ is a description of the steps of the algorithm.
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
-Complexity: O(n^2)
-
 ## Merge sort
 
 [Merge sort](http://en.wikipedia.org/wiki/Merge_sort) is a nice way of sorting
@@ -42,21 +38,15 @@ to produce a result.
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
-Complexity: O(n*log(n))
-
 ## Bubble sort
 
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
-Complexity: O(n^2)
-
 ## Shell sort
 
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
-
-Complexity: O(n^2)
 
 ## Quick sort
 
@@ -67,8 +57,6 @@ mankind.
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
-Complexity: O(n*log(n))
-
 ## Counting sort
 
 [Counting sort](http://en.wikipedia.org/wiki/Counting_sort) is a genious algorithm
@@ -77,5 +65,3 @@ like if/else) to achieve a running time of O(k + n).
 
 [Here](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html)
 you can find a nice visualization of the steps it executes.
-
-Complexity: O(k + n)
