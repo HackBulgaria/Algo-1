@@ -40,10 +40,17 @@ you can find a nice visualization of the steps of the algorithm.
 
 ## Bubble sort
 
+[Bubble sort](http://en.wikipedia.org/wiki/Bubble_sort) produces a sorted sequence
+by comparing and swapping adjacent elements.
+
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
 
 ## Shell sort
+
+[Shell sort](http://en.wikipedia.org/wiki/Shellsort) improves Bubble sort by
+comparing elements at longer range (not only adjacent). This way the algorithm
+is able to fix more out-of-place elements with fewer swaps.
 
 [Here](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 you can find a nice visualization of the steps of the algorithm.
@@ -61,7 +68,7 @@ you can find a nice visualization of the steps of the algorithm.
 
 [Counting sort](http://en.wikipedia.org/wiki/Counting_sort) is a genious algorithm
 that exploits the fact that arrays allow us to make n-way decisions (not just binary
-like if/else) to achieve a running time of O(k + n).
+like if/else) to improve the performance for certain sequences.
 
 [Here](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html)
 you can find a nice visualization of the steps it executes.
