@@ -1,7 +1,7 @@
 # Week 1
 
 This week we'll focus on some fundamental topics.
-[Complexity alanysis](materials/complexity_analysis.md) will help us compare
+[Complexity analysis](materials/complexity_analysis.md) will help us compare
 two algorithms with respect to their performance as the input grows.
 [Linear data structures](materials/linear_data_structures.md) are the base
 for most of the algorithms that we'll be studying in the next few lectures.
