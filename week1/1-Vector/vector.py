@@ -4,10 +4,24 @@ class Vector:
         self.myArray = [None] * 2
 
     def double(self):
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7b123ca15b4397fc90d1d0fa90f8326bbce25e0b
         newList = [None] * int(Vector.capacity(self)*0.5)
         self.myArray.extend(newList)
 
     def garbage_collector(self):
+<<<<<<< HEAD
+=======
+=======
+        newList = [None] * Vector.capacity(self)
+        self.myArray.extend(newList)
+
+    def garbage_collector(self):
+        print(len(self.myArray))
+>>>>>>> 9de26a37b4243d1a0a9bf3a7f8fe77ceb1be9141
+>>>>>>> 7b123ca15b4397fc90d1d0fa90f8326bbce25e0b
 
         for x in range(Vector.capacity(self) - 1, 2, -1):
             if self.myArray[x] == None:
@@ -26,6 +40,10 @@ class Vector:
         self.myArray.extend(firstVector)
         self.myArray.append(value)
         self.myArray.extend(secondVector)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7b123ca15b4397fc90d1d0fa90f8326bbce25e0b
         Vector.garbage_collector(self)
 
     def add(self, value):
@@ -44,6 +62,21 @@ class Vector:
         self.myArray.extend(firstVector)
         self.myArray.extend(secondVector)
 
+<<<<<<< HEAD
+=======
+=======
+
+        Vector.garbage_collector(self)
+
+    def add(self, value):
+        insertAtPositon = (Vector.capacity(self) + 1)
+        Vector.double(self)
+        Vector.insert(self, insertAtPositon, value)
+        print("Garbage:")
+        Vector.garbage_collector(self)
+
+>>>>>>> 9de26a37b4243d1a0a9bf3a7f8fe77ceb1be9141
+>>>>>>> 7b123ca15b4397fc90d1d0fa90f8326bbce25e0b
     def get(self, index):
         return self.myArray[index]
 
@@ -56,6 +89,10 @@ print(b.myArray)
 b.insert(0, "Vitya1")
 b.insert(2, "Vitya")
 print(b.myArray)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7b123ca15b4397fc90d1d0fa90f8326bbce25e0b
 b.add("Vitya3")
 b.add("Vitya5")
 print(b.myArray)
@@ -65,4 +102,10 @@ b.pop()
 b.pop()
 print(b.myArray)
 b.remove(0)
+<<<<<<< HEAD
 print(b.myArray)
+=======
+print(b.myArray)
+=======
+>>>>>>> 9de26a37b4243d1a0a9bf3a7f8fe77ceb1be9141
+>>>>>>> 7b123ca15b4397fc90d1d0fa90f8326bbce25e0b
