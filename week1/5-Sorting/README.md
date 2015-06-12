@@ -1,4 +1,3 @@
-#I will fix it after Friday, 12 July
 # Sorting
 
 Implement `Selection sort`, `Insertion sort`, `Merge sort`, `Quick sort`
