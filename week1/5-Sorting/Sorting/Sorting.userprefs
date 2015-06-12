@@ -1,12 +1,11 @@
-﻿<Properties StartupItem="QuickSort/QuickSort.csproj">
+﻿<Properties StartupItem="BubbleSort/BubbleSort.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QuickSort/Quick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BubbleSort/Bubble.cs">
     <Files>
-      <File FileName="Selection.cs" Line="4" Column="1" />
-      <File FileName="CountSort/Count.cs" Line="13" Column="1" />
-      <File FileName="InsertionSort/Insertion.cs" Line="1" Column="1" />
-      <File FileName="MergeSort/Merge.cs" Line="1" Column="14" />
+      <File FileName="BubbleSort/Bubble.cs" Line="32" Column="2" />
       <File FileName="QuickSort/Quick.cs" Line="2" Column="1" />
+      <File FileName="MergeSort/Merge.cs" Line="1" Column="1" />
+      <File FileName="InsertionSort/Insertion.cs" Line="31" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
