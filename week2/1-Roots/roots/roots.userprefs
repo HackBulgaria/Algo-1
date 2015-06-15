@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="2-BirthdayRanges/Program.cs">
+    <Files>
+      <File FileName="roots/Program.cs" Line="15" Column="1" />
+      <File FileName="3-Quadruplets/Program.cs" Line="15" Column="45" />
+      <File FileName="2-BirthdayRanges/Program.cs" Line="13" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
