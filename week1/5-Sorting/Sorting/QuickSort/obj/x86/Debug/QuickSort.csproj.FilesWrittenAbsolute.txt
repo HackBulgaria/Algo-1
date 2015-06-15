@@ -1,0 +1,5 @@
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/QuickSort/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/QuickSort/bin/Debug/QuickSort.exe.mdb
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/QuickSort/bin/Debug/QuickSort.exe
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/QuickSort/obj/x86/Debug/QuickSort.exe
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/QuickSort/obj/x86/Debug/QuickSort.exe.mdb
