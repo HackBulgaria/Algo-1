@@ -11,8 +11,10 @@ then look at [this article](http://googleresearch.blogspot.com/2006/06/extra-ext
 
 ## Tasks
 
-1. []() -
+1. [Roots](1-Roots/README.md) - Find the square root of a number using binary search.
 1. [Birthday Ranges](2-Birthday-Ranges/README.md) - Find the number of people
 with birthday in a specific range.
 1. [Quadruplets](3-Quadruplets/README.md) - How many quadruplets from four
 vectors sum to zero.
+1. [Phone Book](4-Phone-Book/README.md) - Find the names corresponding to a number in
+a phone book.
