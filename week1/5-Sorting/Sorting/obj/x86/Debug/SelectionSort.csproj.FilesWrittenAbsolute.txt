@@ -1,0 +1,5 @@
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/bin/Debug/Sorting.exe.mdb
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/bin/Debug/Sorting.exe
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/obj/x86/Debug/Sorting.exe
+/home/gro/Desktop/algo/week1/5-Sorting/Sorting/obj/x86/Debug/Sorting.exe.mdb
