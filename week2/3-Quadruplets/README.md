@@ -14,5 +14,5 @@ zero_quadruplets_count(a, b, c, d) {
 
 ```
 zero_quadruplets_count([5, 3, 4], [-2, -1, 6], [-1, -2, 4], [-1, -2, 7])
-=> 5
+=> 7
 ```
