@@ -22,3 +22,6 @@ with birthday in a specific range.
 vectors sum to zero.
 1. [Phone Book](4-Phone-Book/README.md) - Find the names corresponding to a number in
 a phone book.
+1. [Heap Sort](5-Heap-Sort/README.md) - Implement efficient sorting using heaps.
+1. [K Lists](6-K-Lists/README.md) - Merge k sorted lists in a single one.
+1. [K Table](7-K-Table/README.md) - Find the k-th smallest element in a table.
