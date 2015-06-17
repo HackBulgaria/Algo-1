@@ -1,0 +1,5 @@
+/home/gro/Desktop/algo/week2/1-Roots/roots/3-Quadruplets/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/gro/Desktop/algo/week2/1-Roots/roots/3-Quadruplets/bin/Debug/3-Quadruplets.exe.mdb
+/home/gro/Desktop/algo/week2/1-Roots/roots/3-Quadruplets/bin/Debug/3-Quadruplets.exe
+/home/gro/Desktop/algo/week2/1-Roots/roots/3-Quadruplets/obj/x86/Debug/3-Quadruplets.exe
+/home/gro/Desktop/algo/week2/1-Roots/roots/3-Quadruplets/obj/x86/Debug/3-Quadruplets.exe.mdb

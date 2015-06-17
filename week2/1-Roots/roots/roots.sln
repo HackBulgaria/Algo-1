@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Quadruplets", "3-Quadrupl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-BirthdayRanges", "2-BirthdayRanges\2-BirthdayRanges.csproj", "{4DE4BD32-170B-4B17-B796-92D1CE7482DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-PhoneBook", "4-PhoneBook\4-PhoneBook.csproj", "{BB26EFBB-7B43-42F5-B002-F1AA89397862}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -17,6 +19,10 @@ Global
 		{4DE4BD32-170B-4B17-B796-92D1CE7482DF}.Debug|x86.Build.0 = Debug|x86
 		{4DE4BD32-170B-4B17-B796-92D1CE7482DF}.Release|x86.ActiveCfg = Release|x86
 		{4DE4BD32-170B-4B17-B796-92D1CE7482DF}.Release|x86.Build.0 = Release|x86
+		{BB26EFBB-7B43-42F5-B002-F1AA89397862}.Debug|x86.ActiveCfg = Debug|x86
+		{BB26EFBB-7B43-42F5-B002-F1AA89397862}.Debug|x86.Build.0 = Debug|x86
+		{BB26EFBB-7B43-42F5-B002-F1AA89397862}.Release|x86.ActiveCfg = Release|x86
+		{BB26EFBB-7B43-42F5-B002-F1AA89397862}.Release|x86.Build.0 = Release|x86
 		{C6B0D43B-75F2-4F53-887F-2B252412E670}.Debug|x86.ActiveCfg = Debug|x86
 		{C6B0D43B-75F2-4F53-887F-2B252412E670}.Debug|x86.Build.0 = Debug|x86
 		{C6B0D43B-75F2-4F53-887F-2B252412E670}.Release|x86.ActiveCfg = Release|x86
@@ -25,8 +31,5 @@ Global
 		{E94BC636-AF2A-44E1-851F-D0D154A4C62F}.Debug|x86.Build.0 = Debug|x86
 		{E94BC636-AF2A-44E1-851F-D0D154A4C62F}.Release|x86.ActiveCfg = Release|x86
 		{E94BC636-AF2A-44E1-851F-D0D154A4C62F}.Release|x86.Build.0 = Release|x86
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = 2-BirthdayRanges\2-BirthdayRanges.csproj
 	EndGlobalSection
 EndGlobal

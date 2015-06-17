@@ -5,10 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4DE4BD32-170B-4B17-B796-92D1CE7482DF}</ProjectGuid>
+    <ProjectGuid>{BB26EFBB-7B43-42F5-B002-F1AA89397862}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BirthdayRanges</RootNamespace>
-    <AssemblyName>2-BirthdayRanges</AssemblyName>
+    <RootNamespace>PhoneBook</RootNamespace>
+    <AssemblyName>4-PhoneBook</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,8 +35,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PhoneBook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

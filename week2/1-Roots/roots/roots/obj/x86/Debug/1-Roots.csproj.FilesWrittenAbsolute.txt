@@ -1,0 +1,5 @@
+/home/gro/Desktop/algo/week2/1-Roots/roots/roots/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/gro/Desktop/algo/week2/1-Roots/roots/roots/bin/Debug/roots.exe.mdb
+/home/gro/Desktop/algo/week2/1-Roots/roots/roots/bin/Debug/roots.exe
+/home/gro/Desktop/algo/week2/1-Roots/roots/roots/obj/x86/Debug/roots.exe
+/home/gro/Desktop/algo/week2/1-Roots/roots/roots/obj/x86/Debug/roots.exe.mdb

@@ -1,0 +1,5 @@
+/home/gro/Desktop/algo/week2/1-Roots/roots/2-BirthdayRanges/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/gro/Desktop/algo/week2/1-Roots/roots/2-BirthdayRanges/bin/Debug/2-BirthdayRanges.exe.mdb
+/home/gro/Desktop/algo/week2/1-Roots/roots/2-BirthdayRanges/bin/Debug/2-BirthdayRanges.exe
+/home/gro/Desktop/algo/week2/1-Roots/roots/2-BirthdayRanges/obj/x86/Debug/2-BirthdayRanges.exe
+/home/gro/Desktop/algo/week2/1-Roots/roots/2-BirthdayRanges/obj/x86/Debug/2-BirthdayRanges.exe.mdb
