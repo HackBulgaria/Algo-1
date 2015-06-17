@@ -9,8 +9,8 @@ numbers in the second vector.
 
 Input:
 ```
-phone_book: [(1, "Stanislav"), (15, "Rado"), (6, "Ivan"), (8, "Ivan")]
-numbers: [15, 8]
+[(1, "Stanislav"), (15, "Rado"), (6, "Ivan"), (8, "Ivan")]
+[15, 8]
 ```
 
 Output:
