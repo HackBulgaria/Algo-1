@@ -1,14 +1,9 @@
 # Quadruplets
 
-Given four vectors of `N` integer values, compute how many quadruplets
-(one element from every vector) form a total sum of zero.
-
-```
-zero_quadruplets_count(a, b, c, d) {
-  ...
-  return count
-}
-```
+Implement a function in [Java](Quadruplets.java), [Python](quadruplets.py)
+or [C++](quadruplets.cpp) that given four vectors of `N` integer values,
+computes how many quadruplets (one element from every vector) form a total
+sum of zero.
 
 ## Example
 
