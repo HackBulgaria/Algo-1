@@ -1,4 +1,4 @@
-# Stack
+# Complexities
 
 Write down the asymptotic complexities of the following functions:
 
