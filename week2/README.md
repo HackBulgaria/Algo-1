@@ -9,6 +9,10 @@ Continuing the topic on fundamental algorithms we'll study [searching](materials
 which turns out to be a key problem in algorithm design. Check out the algorithm steps and
 then look at [this article](http://googleresearch.blogspot.com/2006/06/extra-extra-read-all-about-it-nearly.html) :)
 
+The time has come to move on to data structures that are not linear. This lecture we'll
+be looking at [binary trees](materials/binary_trees.md) and interesting ways of solving
+problems with them.
+
 ## Tasks
 
 1. [Roots](1-Roots/README.md) - Find the square root of a number using binary search.
