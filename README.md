@@ -6,39 +6,58 @@ The first edition of the algo course in Hack Bulgaria
 
 The course is happening thanks to:
 
-[![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)](https://youtu.be/Mkslqj8ix44) | [![SAP Labs Bulgaria](partners/sap_labs_bulgaria.png)](https://youtu.be/JXsM1oFkAmg) | [![Chaos Group](partners/chaos_group.png)](http://www.chaosgroup.com/en/2/index.html)
+[![Nemetschek Bulgaria](partners/nemetschek.png)](https://youtu.be/Mkslqj8ix44)
+[![SAP Labs Bulgaria](partners/sap_labs_bulgaria.png)](https://youtu.be/JXsM1oFkAmg)
+[![Chaos Group](partners/chaos_group.png)](http://www.chaosgroup.com/en/2/index.html)  ![Ontotext](partners/ontotext.png) 
 
 ## Course Program
 
-This program is a draft version and can change until the course starts.
+The topics that we cover at the Algorithms course.
 
-* Course introduction & Algorithm analysis. (1 lecture)
-  * data structures, algorithms, complexity, best/wrost case analysis
+#### Lecture 1 - Intro, analysis and data structures
+
+* Course introduction
+* [Algorithm analysis](week1/materials/complexity_analysis.md)
+  * Execution instructions
+  * Asymptotic analysis
+  * Algorithm complexity and Big Oh notation
+  * Best/wrost case analysis
+* [Linear data structures](week1/materials/linear_data_structures.md)
   * Array
-  * Linked list
-  * Array list
+  * List
+  * Vector
   * Queue/Stack
-* Sorting algorithms (1 lecture)
-  * Selection sort
-  * Insertion sort
-  * Merge sort
-  * Bubble sort
-  * Shell sort
-  * Quick sort
-  * Counting sort
-* Searching algorithms (1 lecture)
-  * Linear search
-  * Binary search
-    * integers
-    * floats
-* Heaps (1 lecture)
-  * Heap
-  * Heap sort
-  * Priority queue
-  * k-th biggest element
+
+#### Lecture 2 - Sorting
+
+* [Selection sort](week1/materials/sorting.md#selection-sort)
+* [Insertion sort](week1/materials/sorting.md#insertion-sort)
+* [Merge sort](week1/materials/sorting.md#merge-sort)
+* [Bubble sort](week1/materials/sorting.md#bubble-sort)
+* [Shell sort](week1/materials/sorting.md#shell-sort)
+* [Quick sort](week1/materials/sorting.md#quick-sort)
+* [Counting sort](week1/materials/sorting.md#counting-sort)
+
+#### Lecture 3 - Searching
+
+* [Linear search](week2/materials/searching.md#linear-search)
+* [Binary search](week2/materials/searching.md#binary-search)
+  * Different data types - integers/floats
+  * Different structures - arrays/range of numbers
+* Ternary search
+* [Interpolation search](week2/materials/searching.md#interpolation-search)
+
+#### Lecture 4 - Binary trees
+
+* [Binary tree](week2/materials/binary_trees.md#binary-tree)
+* [Binary search tree](week2/materials/binary_trees.md#binary-search-tree)
+* [Binary Heap](week2/materials/binary_trees.md#binary-heap)
+* [Heap sort](week2/materials/binary_trees.md#heap-sort)
+* [Priority queue](week2/materials/binary_trees.md#priority-queue)
+
+#### To be discussed
+
 * Trees & Tree-like data structures (1 lecture)
-  * Binary tree
-  * Binary search tree
   * Trie
   * Indexed tree
 * Graphs (3 lectures)
