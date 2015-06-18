@@ -24,4 +24,4 @@ vectors sum to zero.
 a phone book.
 1. [Heap Sort](5-Heap-Sort/README.md) - Implement efficient sorting using heaps.
 1. [K Lists](6-K-Lists/README.md) - Merge k sorted lists in a single one.
-1. [K Table](7-K-Table/README.md) - Find the k-th smallest element in a table.
+1. [K Min](7-K-Min/README.md) - Find the k-th smallest element in an unsorted collection.
