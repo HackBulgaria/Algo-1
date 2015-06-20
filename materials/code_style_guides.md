@@ -10,7 +10,7 @@ group environment such as the Algorithms course. Many people will read at
 your code as you'll be reading at theirs. It would be much more easier if
 their code looked exactly like yours. This is why we will impose code standards
 for the programming languages that we use. Please follow them strictly as
-this would make the process of learning and sharing that much easier.
+this would make the process of learning and sharing much easier.
 
 ## Code style guides
 
