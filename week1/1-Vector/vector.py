@@ -37,8 +37,8 @@ class Vector:
         """
         Increases the __capacity of elements
         """
-        self.elements.expand(__capacity * [None])
-        __capacity *= 2
+        self.elements.extend(self.__capacity * [None])
+        self.__capacity *= 2
 
 
     def get(self, index):
