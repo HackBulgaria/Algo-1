@@ -16,7 +16,7 @@ some nice figures.
 
 ## Tasks
 
-1. [Online Medial](1-Online-Median/README.md) - Find the median of a sequence
+1. [Online Median](1-Online-Median/README.md) - Find the median of a sequence
 on each insert
 1. [Phone Book 2](2-Phone-Book-2/README.md) - Implement an efficient phone book
 with add, remove, search and list operations

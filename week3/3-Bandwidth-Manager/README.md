@@ -13,14 +13,12 @@ Write a simple network scheduler which forwards the packets with
 protocol-based priority. Below is a list of protocols, ordered by their
 priorities (highest priority first):
 
-```
-[ICMP](https://en.wikipedia.org/wiki/ICMP)
-[UDP](https://en.wikipedia.org/wiki/UDP)
-[RTM](https://en.wikipedia.org/wiki/RTM)
-[IGMP](https://en.wikipedia.org/wiki/IGMP)
-[DNS](https://en.wikipedia.org/wiki/DNS)
-[TCP](https://en.wikipedia.org/wiki/TCP)
-```
+* [ICMP](https://en.wikipedia.org/wiki/ICMP)
+* [UDP](https://en.wikipedia.org/wiki/UDP)
+* [RTM](https://en.wikipedia.org/wiki/RTM)
+* [IGMP](https://en.wikipedia.org/wiki/IGMP)
+* [DNS](https://en.wikipedia.org/wiki/DNS)
+* [TCP](https://en.wikipedia.org/wiki/TCP)
 
 If two packets have the same protocol, the one which came first should be
 forwarded first.
