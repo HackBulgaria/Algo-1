@@ -16,10 +16,11 @@ some nice figures.
 
 ## Tasks
 
-1. [BST](1-BST/README.md) - Check if a binary tree is binary search tree.
-1. [Online Median](2-Online-Median/README.md) - Find the median of a sequence
+1. [BST](1-BST/README.md) - Check if binary tree is a binary search tree.
+1. [Min/Max Heap](2-Min-Max-Heap/README.md) - Check if binary tree is a min/max heap.
+1. [Online Median](3-Online-Median/README.md) - Find the median of a sequence
 on each insert
-1. [Phone Book 2](3-Phone-Book-2/README.md) - Implement an efficient phone book
+1. [Phone Book 2](4-Phone-Book-2/README.md) - Implement an efficient phone book
 with add, remove, search and list operations
-1. [Bandwidth Manager](4-Bandwidth-Manager/README.md) - write a simple packet
+1. [Bandwidth Manager](5-Bandwidth-Manager/README.md) - write a simple packet
 scheduler for a router.
