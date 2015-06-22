@@ -23,11 +23,11 @@ insert 3
 insert 10
 \>6
 insert 20
-\>6
+\>7
 insert 30
 \>7
 insert 40
-\>7
+\>10
 insert 50
 \>10
 ```
