@@ -5,7 +5,7 @@ or [C++](median.cpp) which inserts a number to a collection and
 returns the `median` of the collection on each insert.
 
 A `median` of the collection is the element which stays on position
-`ceiling((Length-1)/2)` in the zero-based sorted list of the items.
+`ceiling((Length)/2)` in the zero-based sorted list of the items.
 
 ## Example
 
