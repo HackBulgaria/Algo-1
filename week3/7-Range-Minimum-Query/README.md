@@ -4,9 +4,9 @@ Implement a program in Java, Python or C++ which starts with an
 initial list of number and then implements the following two commands.
 
 `set [index] [value]` - replaces the value at `index` in the list
-with the specified `value`. `index` <= length of the list.
+with the specified `value`. `index` <= `length of the list`.
 
-`min [start_index] [end_index]` - returns the minimum value of the
+`min [start_index] [end_index]` - returns the minimum value from the
 elements between `start_index` and `end_index`. `start_index` <= `end_index`.
 
 Indices in both operations are zero-based.

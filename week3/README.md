@@ -27,9 +27,9 @@ on each insert
 with add, remove, search and list operations
 1. [Bandwidth Manager](5-Bandwidth-Manager/README.md) - write a simple packet
 scheduler for a router.
-1. [Bandwidth Manager](6-Birthday-Ranges-2/README.md) - An update of a previous
+1. [Birthday Ranges 2](6-Birthday-Ranges-2/README.md) - An update of a previous
 task. Find the number of people with birthday in a specific range.
-1. [Bandwidth Manager](7-Range-Minimum-Query/README.md) - Find the minimum value
+1. [Range Minimum Query](7-Range-Minimum-Query/README.md) - Find the minimum value
 in a range.
-1. [Bandwidth Manager](8-Jumping-Soldiers/README.md) - An interesting task from
+1. [Jumping Soldiers](8-Jumping-Soldiers/README.md) - An interesting task from
 a real programming competition.
