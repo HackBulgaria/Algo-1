@@ -10,7 +10,10 @@ of the Heap and Binary Search Tree structures. We will explore more problems
 and tasks which these structure solve, as well as some real-world applications
 of them.
 
-The [materials](materials/binary_trees.md) this time includes a couple of short
+In addition, we have included another interesting binary tree structure -
+the Binary Indexed Tree.
+
+The [materials](materials/binary_trees.md) this time include short
 presentations which demonstrate the basic operations of the structures and include
 some nice figures.
 
@@ -24,3 +27,9 @@ on each insert
 with add, remove, search and list operations
 1. [Bandwidth Manager](5-Bandwidth-Manager/README.md) - write a simple packet
 scheduler for a router.
+1. [Bandwidth Manager](6-Birthday-Ranges-2/README.md) - An update of a previous
+task. Find the number of people with birthday in a specific range.
+1. [Bandwidth Manager](7-Range-Minimum-Query/README.md) - Find the minimum value
+in a range.
+1. [Bandwidth Manager](8-Jumping-Soldiers/README.md) - An interesting task from
+a real programming competition.
