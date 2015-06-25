@@ -1,8 +1,9 @@
 # Birthday ranges
 
-Implement a program in Java, Python or C++ which starts with
-a vector of people's birthdays (numbers in the range 0-365) and
-can execute the following commands:
+Implement a program in [Java](BirthdayRanges.java),
+[Python](birthday_ranges.py) or [C++](birthday_ranges.cpp) which
+starts with a vector of people's birthdays (numbers in the range 0-365)
+and can execute the following commands:
 
 `add [day] [number_of_people]` - adds `number_of_people` new people
 who have birthdays on day `day`.
