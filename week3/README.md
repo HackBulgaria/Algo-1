@@ -11,7 +11,7 @@ and tasks which these structure solve, as well as some real-world applications
 of them.
 
 In addition, we have included another interesting binary tree structure -
-the Binary Indexed Tree.
+the [Binary Indexed Tree](materials/binary_trees.md#binary-indexed-tree).
 
 The [materials](materials/binary_trees.md) this time include short
 presentations which demonstrate the basic operations of the structures and include
