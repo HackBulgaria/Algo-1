@@ -32,7 +32,7 @@ min 5 10
 set 4 3
 min 4 8
 \>2
-min 0 7
+min 0 6
 \>3
 set 15 8
 min 15 15
