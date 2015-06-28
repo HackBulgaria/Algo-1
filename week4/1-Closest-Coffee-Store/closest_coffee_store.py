@@ -1,7 +1,8 @@
 class ClosestCoffeeStore:
 
     # Finds the closest coffee store to a point.
-    # graph - [[int]]
+    # graph - [[bool]]
     # starting_point - int
-    def closestCoffeeStore(graph, starting_point):
+    # is_coffee_store - [bool]
+    def closestCoffeeStore(graph, is_coffe_store, starting_point):
         pass
