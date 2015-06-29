@@ -48,7 +48,7 @@ The topics that we cover at the Algorithms course.
 * Ternary search
 * [Interpolation search](week2/materials/searching.md#interpolation-search)
 
-### Lecture 4 - Binary trees
+### Lecture 4, 5 - Binary trees
 
 * [Binary tree](week2/materials/binary_trees.md#binary-tree)
 * [Binary search tree](week2/materials/binary_trees.md#binary-search-tree)
@@ -56,30 +56,36 @@ The topics that we cover at the Algorithms course.
 * [Heap sort](week2/materials/binary_trees.md#heap-sort)
 * [Priority queue](week2/materials/binary_trees.md#priority-queue)
 
+### Lecture 6 - Binary Indexed Tree & Range Minimum Queries
+
+* [Binary Indexed Tree](week3/materials/binary_trees.md#binary-indexed-tree)
+
+### Lecture 7 - Graphs - properties, representation and traversals
+
+* [Graph](week4/materials/graph.md)
+* [Graph properties](week4/materials/graph_properties.md)
+* [Graph representations](week4/materials/graph_representations.md)
+* [Graph traversals](week4/materials/graph_traversals.md)
+
 ### To be discussed
 
-* Trees & Tree-like data structures (1 lecture)
+* Trees & Tree-like data structures
   * Trie
-  * Indexed tree
-* Graphs (3 lectures)
-  * adjacency list
-  * adjacency matrix
-  * BFS / DFS
+* Graphs
   * Spanning trees
     * Minimum spanning trees - Prim and Kruskal
   * Shortest path
     * Dijkstra
     * Floyd–Warshall
   * Topological sorting
-* Hashing (1 lecture)
+* Hashing
   * Hash function
   * Hash table
   * Bloom filter
-* String algorithms (1 lecture)
+* String algorithms
   * rolling hash
   * run-length encoding
   * Burrows-Wheeler transform
   * Knuth-Morris-Pratt
-* Randomized algorithms - Monte Carlo and Las Vegas (3 lecture)
-* Dynamic programming (3 lecture)
-
+* Randomized algorithms - Monte Carlo and Las Vegas
+* Dynamic programming
