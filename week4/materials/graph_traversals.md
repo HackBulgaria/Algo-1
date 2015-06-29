@@ -10,11 +10,11 @@ the data in the graph and require following a strict pattern when visiting the v
 algorithm that explores the neighbor vertices first, before moving to the next level
 neighbors.
 
-![](images/bfs.png =250x)
+<img src="images/bfs.png" width="500" />
 
 ## Depth-First Search
 
 [DFS](https://en.wikipedia.org/wiki/Depth-first_search) is a graph traversal
 algorithm that visits all vertices down a branch and then backtracks to neighbors.
 
-![](images/dfs.png =250x)
+<img src="images/dfs.png" width="500" />
