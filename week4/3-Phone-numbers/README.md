@@ -1,8 +1,8 @@
-# Phone numbers
+# Phone Numbers
 
 You, as a leacturer of the algorithms class, have to call all the students to
 notify them that the class on Monday will not be held. However, calling each
-student individually will enormously increase your phone bills. 
+student individually will enormously increase your phone bills.
 
 You have a list of the phone numbers of all of the students. For each of the
 students, you also have the list of phone numbers of other students he or she

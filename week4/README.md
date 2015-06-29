@@ -14,3 +14,4 @@ properties and different types of graphs.
 
 1. [Closest Coffee Store](1-Closest-Coffee-Store/README.md) - Find the closest coffee store to a point.
 1. [Valid Directories](2-Valid-Directories/README.md) - Check if all directories in a file system are valid.
+1. [Phone Numbers](3-Phone-Numbers/README.md) - Save on phone bill by distributing phone calls amongst students.
