@@ -9,7 +9,7 @@ The course is happening thanks to:
 [![Nemetschek Bulgaria](partners/nemetschek.png)](https://youtu.be/Mkslqj8ix44)
 [![SAP Labs Bulgaria](partners/sap_labs_bulgaria.png)](https://youtu.be/JXsM1oFkAmg)
 [![Chaos Group](partners/chaos_group.png)](http://www.chaosgroup.com/en/2/index.html)
-![Ontotext](partners/ontotext.png)
+[![Ontotext](partners/ontotext.png)](http://ontotext.com)
 
 ## Course Program
 
