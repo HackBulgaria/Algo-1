@@ -15,7 +15,7 @@ people for any given day is always positive.
 `count [start_day] [end_day]` - returns the number of people who have
 birthdays in the range between `start_day` and `end_day` inclusive.
 
-The first line of the input will contain two integers - 
+The first line of the input will contain two integers -
 the length of the vector and the number of commands.
 
 The second line of the input will contain the elements of the list,

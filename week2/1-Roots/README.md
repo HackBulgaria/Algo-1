@@ -6,11 +6,13 @@ that computes the square root of a number using binary search with precision of 
 ## Example
 
 Input:
+
 ```
 5
 ```
 
 Output:
+
 ```
 2.23606
 ```

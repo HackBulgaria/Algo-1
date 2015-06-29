@@ -41,6 +41,7 @@ Output a single integer - the minimum number of calls you need to make.
 ## Example
 
 Input:
+
 ```
 6
 100 200 300 400 500 600
@@ -53,6 +54,7 @@ Input:
 ```
 
 Output:
+
 ```
 3
 ```

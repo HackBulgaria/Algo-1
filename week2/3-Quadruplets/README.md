@@ -8,6 +8,7 @@ sum of zero.
 ## Example
 
 Input:
+
 ```
 [5, 3, 4]
 [-2, -1, 6]
@@ -16,6 +17,7 @@ Input:
 ```
 
 Output:
+
 ```
 7
 ```

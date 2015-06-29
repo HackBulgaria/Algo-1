@@ -8,12 +8,14 @@ numbers in the second vector.
 ## Example
 
 Input:
+
 ```
 [(1, "Stanislav"), (15, "Rado"), (6, "Ivan"), (8, "Ivan")]
 [15, 8]
 ```
 
 Output:
+
 ```
 ["Rado", "Ivan"]
 ```

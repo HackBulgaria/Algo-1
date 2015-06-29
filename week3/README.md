@@ -22,14 +22,14 @@ some nice figures.
 1. [BST](1-BST/README.md) - Check if binary tree is a binary search tree.
 1. [Min/Max Heap](2-Min-Max-Heap/README.md) - Check if binary tree is a min/max heap.
 1. [Online Median](3-Online-Median/README.md) - Find the median of a sequence
-on each insert
+  on each insert
 1. [Phone Book 2](4-Phone-Book-2/README.md) - Implement an efficient phone book
-with add, remove, search and list operations
+  with add, remove, search and list operations
 1. [Bandwidth Manager](5-Bandwidth-Manager/README.md) - write a simple packet
-scheduler for a router.
+  scheduler for a router.
 1. [Birthday Ranges 2](6-Birthday-Ranges-2/README.md) - An update of a previous
-task. Find the number of people with birthday in a specific range.
+  task. Find the number of people with birthday in a specific range.
 1. [Range Minimum Query](7-Range-Minimum-Query/README.md) - Find the minimum value
-in a range.
+  in a range.
 1. [Jumping Soldiers](8-Jumping-Soldiers/README.md) - An interesting task from
-a real programming competition.
+  a real programming competition.

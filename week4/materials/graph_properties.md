@@ -12,7 +12,8 @@ that have some sort of relation.
 
 Edges express relation between two vertices. If the vertices are connected with
 an edge this means that there is relation between them. The relation could
-be some custom property. E.g: `are_friends(a, b) => true`, `are_connected(Sofia, Plovdiv) => false`.
+be some custom property. E.g: `are_friends(a, b) => true`,
+`are_connected(Sofia, Plovdiv) => false`.
 
 ## Edge direction
 

@@ -8,6 +8,7 @@ point. Return `-1` in case there is no reachable coffee store from this location
 ## Example
 
 Input:
+
 ```
 The graph matrix:
 
@@ -27,6 +28,8 @@ Starting point: 0
 ```
 
 Output:
+
 ```
-2 # Because the nearest coffee store to `0` is `2` and the path to it is `0 -> 1 -> 2`.
+2 # Because the nearest coffee store to `0` is `2` and the path to
+it is `0 -> 1 -> 2`.
 ```

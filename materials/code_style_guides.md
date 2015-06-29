@@ -12,8 +12,6 @@ their code looked exactly like yours. This is why we will impose code standards
 for the programming languages that we use. Please follow them strictly as
 this would make the process of learning and sharing much easier.
 
-## Code style guides
-
 * [C++ code style guide](http://google.github.io/styleguide/cppguide.html)
 * [Java code style guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [C# code style guide](https://msdn.microsoft.com/en-us/library/ff926074.aspx)
