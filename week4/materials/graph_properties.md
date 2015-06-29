@@ -21,14 +21,14 @@ be some custom property. E.g: `are_friends(a, b) => true`, `are_connected(Sofia,
 A graph which edges have no direction. They could be interpreted as
 bidirectional connections.
 
-![](images/undirected_graph.png =250x)
+<img src="images/undirected_graph.png" width="250" />
 
 ### Directed graph
 
 A graph which edges have a direction. This means that if a node `a` is
 related to another node `b` the reverse might not be true.
 
-![](images/directed_graph.png =250x)
+<img src="images/directed_graph.png" width="250" />
 
 ## Edge weight
 
@@ -37,14 +37,14 @@ related to another node `b` the reverse might not be true.
 Graphs without edge weights are called unweighted. Edges of unweighted
 graphs are considered equals.
 
-![](images/unweighted_graph.png =250x)
+<img src="images/unweighted_graph.png" width="250" />
 
 ### Weighted graph
 
 Graphs with edge weights are called weighted. Edges are threated differently
 in algorithms with respect to their weights.
 
-![](images/weighted_graph.png =250x)
+<img src="images/weighted_graph.png" width="250" />
 
 ## Number of edges
 
@@ -52,13 +52,13 @@ in algorithms with respect to their weights.
 
 Simple graphs allow single edge connecting two vertices.
 
-![](images/simple_graph.png =250x)
+<img src="images/simple_graph.png" width="250" />
 
 ### Multigraph
 
 Multigraphs allow more than one edge to connect two vertices.
 
-![](images/multigraph.png =250x)
+<img src="images/multigraph.png" width="250" />
 
 ## Cycles
 
@@ -67,17 +67,17 @@ Multigraphs allow more than one edge to connect two vertices.
 Acyclic graphs are graphs that do not have cycles in paths
 between any two vertices.
 
-![](images/acyclic_graph.png =250x)
+<img src="images/acyclic_graph.png" width="250" />
 
 ### Cyclic graph
 
 Cyclic graphs are graphs that have at least one cycle in paths
 between any two vertices.
 
-![](images/cyclic_graph.png =250x)
+<img src="images/cyclic_graph.png" width="250" />
 
 ## Connected component
 
 A subgraph where every any two vertices are connected with a path.
 
-![](images/connected_component.png =250x)
+<img src="images/connected_component.png" width="250" />
