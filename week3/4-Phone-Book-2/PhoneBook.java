@@ -12,7 +12,7 @@ public class PhoneBook {
   }
   
   //lookup a name and print its phone number
-  public void lookup(string name){
+  public void lookup(String name){
   
   }
   
@@ -22,7 +22,7 @@ public class PhoneBook {
   }
   
   //remove a record for a given name
-  public void remove(string name) {
+  public void remove(String name) {
   
   }
 }
