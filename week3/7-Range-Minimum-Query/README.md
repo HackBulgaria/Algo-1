@@ -21,23 +21,53 @@ separated by space.
 Each of the following lines will contain a single
 command in the format specified above.
 
+## Input
+
+The first line of the input contains two numbers `N` - the count of
+integers that are present in the array and `K` - the number of queries.
+
+The second line of the input contains `N` integers.
+
+Then follow `K` lines of the form `set [index] [value]` or `min [start_index] [end_index]`.
+
+## Output
+
+`M` lines of integers if `M` is the number of `min` queries.
+
+## Limits
+
+```
+N <= 1000000
+K <= 100000
+
+Time <= 0.6s
+Memory <= 5mb
+```
+
 ## Example
+
+Input:
 
 ```
 16 8
 19 11 15 4 7 13 11 2 3 5 12 7 23 17 4 6
 min 0 4
-\>4
 min 5 10
-\>2
 set 4 3
 min 4 8
-\>2
 min 0 6
-\>3
 set 15 8
 min 15 15
-\>8
 min 10 13
-\>7
+```
+
+Output:
+
+```
+4
+2
+2
+3
+8
+7
 ```
