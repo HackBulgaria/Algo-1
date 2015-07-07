@@ -9,7 +9,8 @@ large collection will definitely cause a performance impact.
 
 ## Binary search
 
-[Binary search](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) is an example of an algorithm that with some amount of
+[Binary search](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+is an example of an algorithm that with some amount of
 preprocessing is able to solve a hard problem. Sorting a collection
 of elements allows consecutive searches to be really fast.
 

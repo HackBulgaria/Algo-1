@@ -8,13 +8,14 @@ The course is happening thanks to:
 
 [![Nemetschek Bulgaria](partners/nemetschek.png)](https://youtu.be/Mkslqj8ix44)
 [![SAP Labs Bulgaria](partners/sap_labs_bulgaria.png)](https://youtu.be/JXsM1oFkAmg)
-[![Chaos Group](partners/chaos_group.png)](http://www.chaosgroup.com/en/2/index.html)  ![Ontotext](partners/ontotext.png) 
+[![Chaos Group](partners/chaos_group.png)](http://www.chaosgroup.com/en/2/index.html)
+[![Ontotext](partners/ontotext.png)](http://ontotext.com)
 
 ## Course Program
 
 The topics that we cover at the Algorithms course.
 
-#### Lecture 1 - Intro, analysis and data structures
+### Lecture 1 - Intro, analysis and data structures
 
 * Course introduction
 * [Algorithm analysis](week1/materials/complexity_analysis.md)
@@ -28,7 +29,7 @@ The topics that we cover at the Algorithms course.
   * Vector
   * Queue/Stack
 
-#### Lecture 2 - Sorting
+### Lecture 2 - Sorting
 
 * [Selection sort](week1/materials/sorting.md#selection-sort)
 * [Insertion sort](week1/materials/sorting.md#insertion-sort)
@@ -38,7 +39,7 @@ The topics that we cover at the Algorithms course.
 * [Quick sort](week1/materials/sorting.md#quick-sort)
 * [Counting sort](week1/materials/sorting.md#counting-sort)
 
-#### Lecture 3 - Searching
+### Lecture 3 - Searching
 
 * [Linear search](week2/materials/searching.md#linear-search)
 * [Binary search](week2/materials/searching.md#binary-search)
@@ -47,7 +48,7 @@ The topics that we cover at the Algorithms course.
 * Ternary search
 * [Interpolation search](week2/materials/searching.md#interpolation-search)
 
-#### Lecture 4 - Binary trees
+### Lecture 4, 5 - Binary trees
 
 * [Binary tree](week2/materials/binary_trees.md#binary-tree)
 * [Binary search tree](week2/materials/binary_trees.md#binary-search-tree)
@@ -55,30 +56,36 @@ The topics that we cover at the Algorithms course.
 * [Heap sort](week2/materials/binary_trees.md#heap-sort)
 * [Priority queue](week2/materials/binary_trees.md#priority-queue)
 
-#### To be discussed
+### Lecture 6 - Binary Indexed Tree & Range Minimum Queries
 
-* Trees & Tree-like data structures (1 lecture)
+* [Binary Indexed Tree](week3/materials/binary_trees.md#binary-indexed-tree)
+
+### Lecture 7 - Graphs - properties, representation and traversals
+
+* [Graph](week4/materials/graph.md)
+* [Graph properties](week4/materials/graph_properties.md)
+* [Graph representations](week4/materials/graph_representations.md)
+* [Graph traversals](week4/materials/graph_traversals.md)
+
+### To be discussed
+
+* Trees & Tree-like data structures
   * Trie
-  * Indexed tree
-* Graphs (3 lectures)
-  * adjacency list
-  * adjacency matrix
-  * BFS / DFS
+* Graphs
   * Spanning trees
     * Minimum spanning trees - Prim and Kruskal
   * Shortest path
     * Dijkstra
     * Floyd–Warshall
   * Topological sorting
-* Hashing (1 lecture)
+* Hashing
   * Hash function
   * Hash table
   * Bloom filter
-* String algorithms (1 lecture)
+* String algorithms
   * rolling hash
   * run-length encoding
   * Burrows-Wheeler transform
   * Knuth-Morris-Pratt
-* Randomized algorithms - Monte Carlo and Las Vegas (3 lecture)
-* Dynamic programming (3 lecture)
-
+* Randomized algorithms - Monte Carlo and Las Vegas
+* Dynamic programming
