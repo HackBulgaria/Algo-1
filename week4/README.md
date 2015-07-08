@@ -20,3 +20,10 @@ and different types of graphs.
   directories in a file system are valid.
 1. [Phone Numbers](3-Phone-Numbers/README.md) - Save on phone bill by
   distributing phone calls amongst students.
+1. [Build Scripts](4-Build-Scripts/README.md) - Solve dependency management
+  for a project build tool.
+1. [Pouring Glasses](5-Pouring-Glasses/README.md) - How many pours does it
+  take to have a specific amount of water in a glass?
+1. [Castaway](6-Castaway/README.md) - Find your way to the destination in
+  a world of islands and harbors.
+
