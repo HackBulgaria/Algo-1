@@ -21,6 +21,7 @@ of cable that is sufficient to provide electricity on every street.
 
 ```
 1 <= N <= 1000
+The graph could have at most 1000 vertices.
 ```
 
 ## Example
