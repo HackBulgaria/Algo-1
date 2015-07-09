@@ -19,6 +19,7 @@ On the single line of the output print the total length of the second best MST.
 
 ```
 1 <= N <= 1000
+The graph could have at most 1000 vertices.
 ```
 
 ## Example
