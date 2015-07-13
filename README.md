@@ -73,12 +73,10 @@ The topics that we cover at the Algorithms course.
 
 ### Lecture 10 - Graphs - Spanning trees, Minimum spanning trees
 
+### Lecture 11 - Graphs - Shortest path
+
 ### To be discussed
 
-* Graphs
-  * Shortest path
-    * Dijkstra
-    * Floyd–Warshall
 * Hashing
   * Hash function
   * Hash table
