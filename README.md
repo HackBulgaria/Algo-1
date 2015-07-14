@@ -73,7 +73,14 @@ The topics that we cover at the Algorithms course.
 
 ### Lecture 10 - Graphs - Spanning trees, Minimum spanning trees
 
+* [Spanning trees](https://github.com/HackBulgaria/Algo-1/blob/master/week5/materials/spanning_trees.md#spanning-trees)
+* [Minimum spanning trees](https://github.com/HackBulgaria/Algo-1/blob/master/week5/materials/spanning_trees.md#minimum-spanning-trees)
+
 ### Lecture 11 - Graphs - Shortest path
+
+* [Floyd-Warshall](https://github.com/HackBulgaria/Algo-1/blob/master/week6/materials/shortest_path.md#floyd-warshall-algorithm)
+* [Dijkstra](https://github.com/HackBulgaria/Algo-1/blob/master/week6/materials/shortest_path.md#dijkstras-algorithm)
+* [Bellman-Ford](https://github.com/HackBulgaria/Algo-1/blob/master/week6/materials/shortest_path.md#bellman-fords-algorithm)
 
 ### To be discussed
 
