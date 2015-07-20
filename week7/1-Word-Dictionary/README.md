@@ -30,7 +30,7 @@ should print either `true` or `false`.
 Input:
 
 ```
-10
+9
 insert alabala
 insert asdf
 contains alabala
