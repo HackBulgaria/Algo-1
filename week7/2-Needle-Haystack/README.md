@@ -24,13 +24,13 @@ On separate lines, output the indices of occurrence of the needle.
 Input:
 
 ```
-The quick brown fox jumps over the lazy dog. The dog was not amused.
+thequickbrownfoxjumpsoverthelazydogthedogwasnotamused
 dog
 ```
 
 Output:
 
 ```
-40
-49
+32
+38
 ```
