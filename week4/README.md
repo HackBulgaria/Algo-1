@@ -3,7 +3,7 @@
 > I regret not knowing about graph theory earlier,
 > and not being born in Hungary.
 >
-> [Graph theory professor](mathprofessorquotes.tumblr.com/tagged/graph-theory)
+> [Graph theory professor](http://mathprofessorquotes.tumblr.com/tagged/graph-theory)
 
 [Graphs](materials/graph_traversals.md) are one big topic crucial to
 algorithms and problem solving. We'll start looking at different ways
