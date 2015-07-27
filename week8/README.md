@@ -9,5 +9,5 @@ techniques.
 make up a sum.
 1. [Longest Subsequence](2-Longest-Subsequence/README.md) - Find the longest
 increasing subsequence.
-1. [K Walks](3-K-Walks/README.md) - Find all paths of length K that
+1. [K Paths](3-K-Paths/README.md) - Find all paths of length K that
 connect two vertices.
