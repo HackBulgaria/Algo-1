@@ -1,7 +1,7 @@
 # K Paths
 
 Implement a program which finds all possible paths with K edges that
-connect to vertices in a graph.
+connect to vertices in a directed acyclic graph.
 
 ## Input
 
