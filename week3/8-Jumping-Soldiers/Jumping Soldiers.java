@@ -1,6 +1,9 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 /*
@@ -13,40 +16,8 @@ import java.util.StringTokenizer;
  *
  * @author qvka
  */
-public class MinMaxHeap {
-    private boolean isMinMaxHeap;
-    private int[] array;
-    private int size;
-    public MinMaxHeap(int[] arr){
-        isMinMaxHeap = true;
-        this.size = arr.length;
-        this.array = new int[size+1];
-        System.arraycopy(arr, 0, this.array, 1, this.size);
-    }
-    public boolean isMinMaxHeap(){
-        int level = 1;
-        int min = Integer.MIN_VALUE;
-        int max = Integer.MAX_VALUE;
-        
-        preOrder(1, min, max,1);
-        return this.isMinMaxHeap;
-    }
-    public void preOrder(int k , int min , int max , int level){
-        if(k > size || array[k] == 0){
-            return;
-        }
-        if( array[k] <=  min || array[k] >= max ){
-            isMinMaxHeap = false;
-            return;
-        }
-        if ( level % 2 == 1){
-            min = array[k];
-        }else{
-            max = array[k];
-        }
-            preOrder(k*2, min, max,level+1);
-            preOrder( (k*2)+1 , min , max, level+1);
-    }
+public class JumpingSoldiers {
+
     public static class MyScanner {
         BufferedReader br;
         StringTokenizer st;
@@ -87,20 +58,39 @@ public class MinMaxHeap {
             return str;
         }
     }
-   
+    
     public static void main(String[] args) {
-        MyScanner scanner = new MyScanner();
-        int n = scanner.nextInt();
-        int[] arr = new int[n];  // 1-based 
-        for(int i = 0 ; i < n ; ++i){
-            arr[i] = scanner.nextInt();
+        MyScanner sc = new MyScanner();
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int temp;
+        int num;
+        int index;
+        int counter;
+        int maxCounter=0;
+        int maxIndex=0;
+        int[][] arr = new int[k][n];
+        
+        for(int i = 0 ; i < k ; ++i){
+            counter = 0;
+            arr[i][0] = sc.nextInt();
+            for(int y = 1 ; y < n ; y++){
+                arr[i][y] = sc.nextInt();
+                index = y;
+                while( (index > 0) && (arr[i][index-1] > arr[i][index])){
+                    temp = arr[i][index-1];
+                    arr[i][index-1] = arr[i][index];
+                    arr[i][index] = temp;
+                    counter++;
+                    index--;
+                }
+            }
+            if(maxCounter < counter){
+                maxCounter = counter;
+                maxIndex = i;
+            }
         }
-        MinMaxHeap heap = new MinMaxHeap(arr);
-        if(heap.isMinMaxHeap()){
-            System.out.println("YES");
-        }else{
-            System.out.println("NO");
-        }
+        System.out.println(maxIndex+1);
     }
     
 }
