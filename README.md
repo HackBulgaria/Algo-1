@@ -60,31 +60,38 @@ The topics that we cover at the Algorithms course.
 
 * [Binary Indexed Tree](week3/materials/binary_trees.md#binary-indexed-tree)
 
-### Lecture 7 - Graphs - properties, representation and traversals
+### Lecture 7 - Graphs - Properties, representation and traversals
 
 * [Graph](week4/materials/graph.md)
 * [Graph properties](week4/materials/graph_properties.md)
 * [Graph representations](week4/materials/graph_representations.md)
 * [Graph traversals](week4/materials/graph_traversals.md)
 
+### Lecture 8 - Graphs - Topological sorting
+
+### Lecture 9 - Graphs - Euler cycles and paths
+
+### Lecture 10 - Graphs - Spanning trees, Minimum spanning trees
+
+* [Spanning trees](https://github.com/HackBulgaria/Algo-1/blob/master/week5/materials/spanning_trees.md#spanning-trees)
+* [Minimum spanning trees](https://github.com/HackBulgaria/Algo-1/blob/master/week5/materials/spanning_trees.md#minimum-spanning-trees)
+
+### Lecture 11 - Graphs - Shortest path
+
+* [Floyd-Warshall](https://github.com/HackBulgaria/Algo-1/blob/master/week6/materials/shortest_path.md#floyd-warshall-algorithm)
+* [Dijkstra](https://github.com/HackBulgaria/Algo-1/blob/master/week6/materials/shortest_path.md#dijkstras-algorithm)
+* [Bellman-Ford](https://github.com/HackBulgaria/Algo-1/blob/master/week6/materials/shortest_path.md#bellman-fords-algorithm)
+
 ### To be discussed
 
-* Trees & Tree-like data structures
-  * Trie
-* Graphs
-  * Spanning trees
-    * Minimum spanning trees - Prim and Kruskal
-  * Shortest path
-    * Dijkstra
-    * Floyd–Warshall
-  * Topological sorting
 * Hashing
   * Hash function
   * Hash table
   * Bloom filter
 * String algorithms
-  * rolling hash
-  * run-length encoding
+  * Trie 
+  * Rolling hash
+  * Run-length encoding
   * Burrows-Wheeler transform
   * Knuth-Morris-Pratt
 * Randomized algorithms - Monte Carlo and Las Vegas
