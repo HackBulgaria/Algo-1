@@ -1,6 +1,13 @@
+
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 import java.util.StringTokenizer;
 
 
@@ -8,50 +15,39 @@ import java.util.StringTokenizer;
  *
  * @author qvka
  */
-public class ValidDirectories {
-    private int visited[];
-    private int[][] graph;
-    private int n;
-    private boolean isValidDir;
-    public void go(){
-        MyScanner sc = new MyScanner();
-        n  = sc.nextInt();
-        graph = new int[n][n];
-        visited = new int[n];
+public class KIntersecti {
 
-        for (int i = 0 ; i < n ; ++i){
-            for(int y = 0 ; y < n ; ++y){
-                graph[i][y] = sc.nextInt();
-            }
-        }
-        isValidDir = true;
-        dfs(0);
-        System.out.println(isValidDir);
-    }
-    public void dfs(int v){
-        if(!isValidDir){
-            return;
-        }
-        
-        int temp;
-        visited[v] = 1;
-        for(int i = 0 ; i < n ; ++i){
-            temp = graph[v][i];
-            if(temp ==1 ){
-                if(visited[i] == 0){
-                    dfs(i);
-                }else if( visited[i] == 1){
-                    isValidDir = false;
-                    return;
-                }
-                
-            }
-        }
-        visited[v] = 2;
-    }
+    
     public static void main(String[] args) {
-        ValidDirectories vd = new ValidDirectories();
-        vd.go();
+        MyScanner sc = new MyScanner();
+        PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out),true);
+        int n  = sc.nextInt();
+        int value,key;
+        String line;
+        HashMap<Integer,Integer> map = new HashMap();
+        Set<Integer> s = new HashSet();
+        StringTokenizer tokenizer;
+        for(int i = 0 ; i < n ; ++i){
+            tokenizer = new StringTokenizer(sc.nextLine()," ");
+            s.clear();
+            while(tokenizer.hasMoreTokens()){
+                s.add( Integer.parseInt(tokenizer.nextToken()));
+            }
+            for(int setEntry : s){
+                if(!map.containsKey(setEntry)){
+                    map.put(setEntry, 1);
+                }else{
+                    map.put(setEntry, map.get(setEntry)+1);
+                }
+            }
+        }
+        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+            key = entry.getKey();
+            value = entry.getValue();
+            if(value == n){
+                out.println(key);
+            }
+        }
     }
     public static class MyScanner {
         BufferedReader br;

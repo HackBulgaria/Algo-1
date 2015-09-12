@@ -1,113 +1,129 @@
+
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Arrays;
 import java.util.StringTokenizer;
+
+
 
 /**
  *
  * @author qvka
  */
-public class BandwidthManager {
+public class LowCostFlights {
+    private int[] path;
+    private Heap heap;
+    private boolean[] visited;
+    private int minPath;
     
-    class Manager{
-        private Heap heap;
-        private Queue<String>[] q;
-        public Manager(int numOfPriorities){
-            heap = new Heap(true);
-            q = new LinkedList[numOfPriorities];
-            for(int i = 0 ; i < numOfPriorities ; i++){
-                q[i]=new LinkedList();
-            }
+    public int shortestPath(int from , int to , int[][] graph){
+        if( graph[from][to] != 0 ){
+            return graph[from][to];
         }
-        //receives a packet with specified protocol and payload
-        public void rcv(String protocol, String payload){
-            int priority;
-            
-            switch(protocol){
-                case "ICMP" : priority = 0; break;
-                case "UDP"  : priority = 1; break;                
-                case "RTM"  : priority = 2; break;
-                case "IGMP" : priority = 3; break;
-                case "DNS"  : priority = 4; break; 
-                case "TCP"  : priority = 5; break;
-                default : throw new RuntimeException("Invalid protocol");
+        heap = new Heap(true);
+        path = new int[graph.length];
+        visited = new boolean[graph.length];
+        minPath = 0;
+        Edge temp;
+        visited[from]= true;
+        Arrays.fill(path, Integer.MAX_VALUE);
+        path[from] = 0;
+        addEdgesToHeap(from, graph);
+        while(heap.size > 0){
+            temp = heap.deleteTop();
+          
+            visited[temp.b] = true;
+            minPath = path[temp.b];
+            if(temp.b == to){
+                break;
             }
-            heap.insert(priority);
-            q[priority].add(payload);
+            addEdgesToHeap(temp.b, graph);
         }
-
-        //returns the payload of the packet which should be sent
-        public String send(){
-            
-            if( heap.size == 0){
-                return "Nothing to send!";
+        return path[to];
+        
+    }
+    private void addEdgesToHeap(int k , int[][] graph){
+        int temp;
+        for (int i = 0 ; i < graph.length ; ++i){
+            if( visited[i] == false && graph[k][i] != 0){
+                
+                heap.insert(new Edge(k,i,graph[k][i]));
+                temp = minPath + graph[k][i];
+                if( temp < path[i]){
+                   path[i] = temp; 
+                }
+       
             }
-            int priority = heap.deleteTop();
-          return q[priority].poll();
-           
         }
     }
-    class Heap{
-        private int[] heap; // starting from 1
-        private static final int CAPACITY = 600000;
+    public class Edge {
+        public int a;
+        public int b;
+        public int weigth;
+        public Edge(int a , int b ,int weigth){
+            this.a = a;
+            this.b = b;
+            this.weigth = weigth;
+        }
+    }
+    public class Heap {
+        private Edge[] heap; // starting from 1
+        private static final int CAPACITY = 2;
         private int size;
         protected boolean isMinHeap;
-        
+
         public Heap(boolean isMin){  //for max heap give argument false
             this.isMinHeap = isMin;
             size=0;
-            heap = new int[CAPACITY];
+            heap = new Edge[CAPACITY];
         }
-        public Heap(int[] array,boolean isMin){
-            this.isMinHeap=isMin;
-            size= array.length;
-            heap = new int[size+1];
-            System.arraycopy(array, 0, heap, 1, size);
-            buildHeap();
+        public Heap(boolean isMin,int cap){  //for max heap give argument false
+            this.isMinHeap = isMin;
+            size=0;
+            heap = new Edge[cap];
         }
+       
         public int size(){
             return this.size;
         }
         private void expandHeap(){
-            int[] old = heap;
-            heap = new int[heap.length*2];
+            Edge[] old = heap;
+            heap = new Edge[heap.length*2];
             System.arraycopy(old, 1, heap, 1, size);
         }
-        public void insert(int value){
+        public void insert(Edge value){
             if( size == heap.length-1){
                 expandHeap();
             }
             size++;
             int position = size;           
             if(isMinHeap){
-                while( position > 1 && value < heap[position/2] ) {
+                while( position > 1 && value.weigth < heap[position/2].weigth ) {
                     heap[position] = heap[position/2];
                     position = position/2;
                 }
             }else{
-                 while( position > 1 && value > heap[position/2] ) {
+                 while( position > 1 && value.weigth > heap[position/2].weigth ) {
                     heap[position] = heap[position/2];
                     position = position/2;
                 }
             }
-            
             heap[position] = value;
         }
-        public int deleteTop() throws RuntimeException{
+        public Edge deleteTop() throws RuntimeException{
             if(size == 0){
                 throw new RuntimeException();
             }
-            int top=heap[1];
+            Edge top=heap[1];
             heap[1]=heap[size];
             size--;
             movingDown(1);
             return top;
         }
-        public int peek(){
+        public Edge peek(){
             if(size == 0){
                 throw new RuntimeException();
             }
@@ -118,55 +134,48 @@ public class BandwidthManager {
                 movingDown(k);
             }
         }
-        public int swap(int k){
-            int temp = heap[1];
-            heap[1]=k;
-            movingDown(1);
-            return temp;
-        }
         public void movingDown(int k){
-            int temp = heap[k];
+            Edge temp = heap[k];
             int child;
             while( 2*k <= size ){
                 child=2*k;
-                
                 if( child != size ){ // has sibling ?
                     if(isMinHeap){ // min heap
-                        if( heap[child] > heap[child+1] ){ // take lesser child
+                        if( heap[child].weigth > heap[child+1].weigth ){ // take lesser child
                             child++;
                         }
                     }else{ // max heap
-                        if( heap[child] < heap[child+1] ){ // take greater child
+                        if( heap[child].weigth < heap[child+1].weigth ){ // take greater child
                             child++;
                         }
                     }
                 }
-                
                 if( isMinHeap ){ //min heap
-                    if( temp > heap[child] ){
+                    if( temp.weigth > heap[child].weigth ){
                             heap[k] = heap[child];  
                     }else{
                         break;
                     }
                 }else{ // max heap
-                    if( temp < heap[child] ){
+                    if( temp.weigth < heap[child].weigth ){
                            heap[k] = heap[child];  
                     }else{
                         break;
                     }
                 }
-                    
                 k = child;
             }
-            
             heap[k]=temp;
         }
+        
         @Override
         public String toString(){
           String out = "";
-          for(int k = 1; k <= size; k++) out += heap[k]+" ";
+          for(int k = 1; k <= size; k++) out += heap[k].weigth+" ";
           return out;
         } 
+        
+
     }
     public static class MyScanner {
         BufferedReader br;
@@ -209,33 +218,30 @@ public class BandwidthManager {
         }
     }
     
-    public void go(){
-        // 0 is the highest priority;
+    public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out),true);
-        Manager m = new Manager(6);
-        String word,protocol,payload;
         int n = sc.nextInt();
-        int i=0;
-        while(i < n){
-            word = sc.next();
-            switch (word) {
-                case "rcv":
-                    protocol = sc.next();
-                    payload = sc.next();
-                    m.rcv(protocol, payload);
-                    break;
-                case "send":
-                    out.println( m.send() );
-                    break;
+        int[][] graph = new int[n][n];
+        for(int i = 0 ; i < n ; ++i){
+            for(int y = 0 ; y < n ; ++y){
+                graph[i][y] = sc.nextInt();
             }
-            ++i;    
         }
-        
-    }
-    public static void main(String[] args) {
-       BandwidthManager bw=new BandwidthManager();
-       bw.go();
+        int m  = sc.nextInt();
+        int start;
+        int destination;
+        LowCostFlights lc = new LowCostFlights();
+        for(int i = 0 ; i < m ; ++i){
+            start = sc.nextInt();
+            destination = sc.nextInt();
+            int temp = lc.shortestPath(start, destination, graph);
+            if( temp == Integer.MAX_VALUE){
+                out.println("NO WAY");
+            }else{
+                out.println(temp);
+            }
+        }
     }
     
 }
