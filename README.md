@@ -1,7 +1,9 @@
 # Algo-1
 
 The first edition of the algo course in Hack Bulgaria
-
+_______________________
+This Course is all you need to learn about algorithms and their functioning.It contains well organized documentation of all the different important algorithms one need to know about. Happy Learning !
+_______________________
 ## Partners
 
 The course is happening thanks to:
