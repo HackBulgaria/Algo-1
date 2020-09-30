@@ -1,7 +1,8 @@
 template<class T>
 class Vector {
 public:
-
+  // this is comment sign.
+  // this program is written in c++.
   // Adds value at a specific index in the Vector.
   // Complexity: O(n)
   void insert(int index, T value) {
