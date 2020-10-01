@@ -1,4 +1,4 @@
-# Algo-1
+# Algo-1: project amazing
 
 The first edition of the algo course in Hack Bulgaria
 
